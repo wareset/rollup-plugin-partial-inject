@@ -1,0 +1,29 @@
+{
+  "name": "rollup-plugin-partial-inject",
+  "version": "1.0.0",
+  "description": "Plugin for quick partial addition of functions from modules",
+  "main": "index.js",
+  "repository": "https://github.com/wareset/rollup-plugin-partial-inject.git",
+  "author": "wareset <git@wareset.com>",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "rollup",
+    "plugin",
+    "inject",
+    "partial",
+    "lodash",
+    "underscore"
+  ],
+  "peerDependencies": {
+    "rollup": "^2.0.0"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^14.0.0",
+    "@rollup/plugin-inject": "^4.0.2"
+  }
+}
