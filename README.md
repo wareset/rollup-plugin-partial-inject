@@ -49,8 +49,8 @@ import partial from 'rollup-plugin-partial-inject';
 export default {
   input: 'src/main.js',
   output: {
-    dir: 'output',
-    format: 'cjs',
+    format: 'iife',
+    file: 'public/bundle.js',
   },
   plugins: [
     // ...
@@ -83,7 +83,7 @@ Only one function will be included in the final file.
 
 ### Quickly add a [lodash-es](https://www.npmjs.com/package/lodash-es):
 
-!The standard package lodash will not work!
+The standard package lodash will not work!
 
 ```console
 npm i lodash-es
