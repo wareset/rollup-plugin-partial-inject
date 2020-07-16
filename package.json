@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-partial-inject",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Plugin for quick partial addition of functions from modules",
   "main": "index.js",
   "repository": "https://github.com/wareset/rollup-plugin-partial-inject.git",
